@@ -1,0 +1,31 @@
+ul {
+  text-align: right;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  vertical-align: middle;
+}
+form {
+  vertical-align: middle;
+}
+.b{
+   text-decoration: none;
+  }
+  .b:hover{
+   text-decoration: underline;
+  }
+  .login {
+    color: white;
+    background-color: rgb(39, 109, 232);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .login:hover{
+    background-color: rgb(24, 133, 235);
+  }
+  .login.btn {
+    display: inline-block;
+    text-decoration: none;
+  }

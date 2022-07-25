@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSSの練習</title>
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li class="box"><a class="b" href="https://mail.google.com/">Gmail</a></li>
+        <li><a class="b" href="https://www.google.co.jp/imghp?hl=ja&ogbl">画像</a></li>
+        <li class="box"><img src="https://satoruhirose.com/wp-content/uploads/2015/01/9dots.jpg" alt="ドット" width="30px" height: 30px;></li>
+        <li class="login"><a href="https://accounts.google.com/ServiceLogin?hl=ja&passive=true&continue=https://www.google.com/%3Fhl%3Dja&ec=GAZAmgQ" style="text-decoration: none;">ログイン</a></li>
+      </ul>
+    </header>
+    <main>
+      <img class="google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Google_logo_%282013-2015%29.svg/1500px-Google_logo_%282013-2015%29.svg.png" width=500px style="display: block; margin: auto; padding-top: 150px;">
+      <form action="http://www.google.co.jp/search" method="get" style="text-align: center; padding-top: 50px;">
+        <input type="hidden" name="hl" value="ja">
+        <input type="textbox" name="q" maxLength="255" size="50" placeholder="Google で入力またはURL で検索">
+        <input type="submit" name="btnG" value="Google 検索">
+    </form>
+    </main>
+  </body>
+</html>
